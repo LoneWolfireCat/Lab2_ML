@@ -104,10 +104,10 @@ print(f"  Средняя: {activity_membership[1]:.3f}")
 print(f"  Высокая: {activity_membership[2]:.3f}")
 
 print(f"\nВовлеченность {engagement_value} взаимодействий/день:")
-print(f"  Неактивный: {engagement_membership[0]:.3f}")
-print(f"  Малоактивный: {engagement_membership[1]:.3f}")
-print(f"  Активный: {engagement_membership[2]:.3f}")
-print(f"  Сильно активный: {engagement_membership[3]:.3f}")
+print(f"  Неактивная: {engagement_membership[0]:.3f}")
+print(f"  Малоактивная: {engagement_membership[1]:.3f}")
+print(f"  Активная: {engagement_membership[2]:.3f}")
+print(f"  Сильно активная: {engagement_membership[3]:.3f}")
 # Визуализация результатов
 fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(12, 10))
 
